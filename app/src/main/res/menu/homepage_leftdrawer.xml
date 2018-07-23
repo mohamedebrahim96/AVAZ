@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_cut"
+        android:title="Top Stories"
+        android:icon="@drawable/if_megaphone_3338897"
+        />
+    <item
+        android:id="@+id/action_copy"
+        android:title="World"
+        android:icon="@drawable/if_pie_chart_4_3338896"
+        />
+    <item
+        android:id="@+id/action_paste"
+        android:title="Technology"
+        android:icon="@drawable/if_get_money_3338979"
+        />
+    <item
+        android:id="@+id/action_new"
+        android:title="Culture"
+        android:icon="@drawable/if_presentation_3_3339019"
+        />
+    <item
+        android:id="@+id/action_new2"
+        android:title="Religion"
+        android:icon="@drawable/if_justice_3338993"
+        />
+        <group>
+            <item android:id="@+id/nav_item_one"
+                android:icon="@drawable/if_presentation_3_3339019"
+                android:title="Business" />
+            <item android:id="@+id/nav_item_two"
+                android:icon="@drawable/if_bank_3338917"
+                android:title="Health" />
+            <item android:id="@+id/nav_item_three"
+                android:icon="@drawable/if_presentation_3_3339019"
+                android:title="Sports" />
+        </group>
+
+        <group android:id="@+id/group_menu">
+            <item android:id="@+id/nav_item_four"
+                android:title="Go Premium" />
+            <item android:id="@+id/nav_item_five"
+                android:title="Redeem" />
+        </group>
+
+        <item android:title="About">
+            <menu>
+                <item android:id="@+id/nav_item_six"
+                    android:icon="@drawable/if_icon_ios7_help_outline_211757"
+                    android:title="Help" />
+                <item android:id="@+id/nav_item_seven"
+                    android:icon="@drawable/if_simpline_35_2305625"
+                    android:title="About us" />
+            </menu>
+        </item>
+</menu>

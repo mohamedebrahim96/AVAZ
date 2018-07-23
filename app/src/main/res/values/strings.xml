@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">avaz</string>
+    <string name="appbar_scrolling_view_behavior">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+</resources>

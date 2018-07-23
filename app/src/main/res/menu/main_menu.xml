@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_cut"
+        android:title="Notifications"
+        android:icon="@drawable/if_megaphone_3338897"
+        />
+    <item
+        android:id="@+id/action_copy"
+        android:title="Text Size"
+        android:icon="@drawable/if_pie_chart_4_3338896"
+        />
+    <item
+        android:id="@+id/action_paste"
+        android:title="Settings"
+        android:icon="@drawable/if_get_money_3338979"
+        />
+    <item
+        android:id="@+id/action_new"
+        android:title="Send Feedback"
+        android:icon="@drawable/if_presentation_3_3339019"
+        />
+    <item
+        android:id="@+id/action_new2"
+        android:title="Subscribe"
+        android:icon="@drawable/if_justice_3338993"
+        />
+
+
+    <item android:title="About">
+        <menu>
+            <item android:id="@+id/nav_item_six"
+                android:icon="@drawable/if_icon_ios7_help_outline_211757"
+                android:title="Help" />
+            <item android:id="@+id/nav_item_seven"
+                android:icon="@drawable/if_simpline_35_2305625"
+                android:title="About us" />
+        </menu>
+    </item>
+</menu>

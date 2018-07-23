@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/poster"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Central American kids come to the US fleeing record-high youth murder rates at home"
+        fontPath="fonts/imperial.ttf"
+        />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Erik C. Nisbet, The Ohio State University and Olga Kamenchuk, The Ohio State University Donald Trump sits down with Russian President Vladimir Putin on Jul..."
+        fontPath="fonts/cheltenham.ttf"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <TextView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="9h ago"
+            android:textColor="@color/grey"
+            android:layout_gravity="center"
+            fontPath="fonts/cheltenham.ttf"
+            />
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="2"
+            android:text="48 Comments"
+            android:paddingLeft="10dp"
+            android:alpha="0.7"
+            android:textColor="@color/grey"
+            android:layout_gravity="center"
+            fontPath="fonts/cheltenham.ttf"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/if_jee_67_2180667"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/if_sed_01_2232584"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:alpha="0.5"
+        />
+
+</LinearLayout>
