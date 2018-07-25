@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
     <style name="Light_Theme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -15,9 +15,6 @@
 
         <item name="toolbar">@style/toolbar_light</item>
         <item name="toolbar_logo">@style/toolbar_logo_light</item>
-
-
-
     </style>
 
     <style name="Dark_Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
@@ -30,6 +27,8 @@
         <item name="time_post">@style/time_post_dark</item>
         <item name="comments_post">@style/comments_post_dark</item>
         <item name="background_post">@style/background_post_dark</item>
+
+        <item name="recyclerview_post">@style/recyclerview_post_dark</item>
         <item name="toolbar">@style/toolbar_dark</item>
         <item name="toolbar_logo">@style/toolbar_logo_dark</item>
     </style>

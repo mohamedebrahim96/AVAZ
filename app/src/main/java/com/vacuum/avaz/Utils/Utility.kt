@@ -8,7 +8,7 @@ import com.vacuum.avaz.R
 
 class Utility
 {
-    private var sTheme: Int = 0
+    private var sTheme: Int = 1
 
     val Light_Theme = 0
     val Dark_Theme = 1

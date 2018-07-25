@@ -22,6 +22,7 @@
             android:id="@+id/tvCredentials"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="?title_post"
             android:text="@string/settings_text_credentials" />
 
         <EditText
