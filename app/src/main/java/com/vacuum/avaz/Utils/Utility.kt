@@ -19,7 +19,6 @@ class Utility {
         activity.overridePendingTransition(android.R.anim.fade_in,
                 android.R.anim.fade_out)
     }
-
     fun onActivityCreateSetTheme(activity: Activity) {
         val prefs = activity.getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE)
         sTheme = prefs.getInt("theme", 0)
