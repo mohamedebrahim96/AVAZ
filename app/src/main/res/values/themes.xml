@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Light_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="title_post">@style/title_post_light</item>
+        <item name="description_post">@style/description_post_light</item>
+        <item name="time_post">@style/time_post_light</item>
+        <item name="comments_post">@style/comments_post_light</item>
+        <item name="background_post">@style/background_post_light</item>
+        <item name="recyclerview_post">@style/recyclerview_post_light</item>
+
+
+
+    </style>
+
+    <style name="Dark_Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="title_post">@style/title_post_light</item>
+        <item name="description_post">@style/description_post_light</item>
+        <item name="time_post">@style/time_post_light</item>
+        <item name="comments_post">@style/comments_post_light</item>
+        <item name="background_post">@style/background_post_light</item>
+    </style>
+
+</resources>

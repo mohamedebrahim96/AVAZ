@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="title_post" format="reference" />
+    <attr name="description_post" format="reference" />
+    <attr name="time_post" format="reference" />
+    <attr name="comments_post" format="reference" />
+    <attr name="background_post" format="reference" />
+    <attr name="recyclerview_post" format="reference" />
+
+
+</resources>

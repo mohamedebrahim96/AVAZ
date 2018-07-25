@@ -1,6 +1,7 @@
 package com.vacuum.avaz
 
 import android.content.Context
+import android.content.Intent
 import android.content.res.Configuration
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +15,8 @@ import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.vacuum.avaz.Activities.SettingsActivity
+import com.vacuum.avaz.Utils.Utility
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
 
 class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelectedListener {
@@ -26,6 +29,7 @@ class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelecte
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Utility().onActivityCreateSetTheme(this)
         setContentView(R.layout.activity_main)
 
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
@@ -71,7 +75,10 @@ class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.nav_item_one -> Toast.makeText(this, "Clicked item one", Toast.LENGTH_SHORT).show()
+            R.id.nav_item_one ->{
+                Toast.makeText(this, "Clicked item one", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, SettingsActivity::class.java)
+                    startActivity(intent) }
             R.id.nav_item_two -> Toast.makeText(this, "Clicked item two", Toast.LENGTH_SHORT).show()
             R.id.nav_item_three -> Toast.makeText(this, "Clicked item three", Toast.LENGTH_SHORT).show()
             R.id.nav_item_four -> Toast.makeText(this, "Clicked item four", Toast.LENGTH_SHORT).show()

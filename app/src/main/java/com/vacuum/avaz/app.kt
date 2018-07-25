@@ -8,7 +8,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         CalligraphyConfig.initDefault(CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/imperial.ttf")
+                .setDefaultFontPath("fonts/airbnb.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         )
