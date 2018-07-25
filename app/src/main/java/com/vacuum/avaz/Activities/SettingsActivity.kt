@@ -44,11 +44,7 @@ class SettingsActivity : ContextActivity() {
                 editor.putInt("theme", position)
                 editor.apply()
             }
-
-            override fun onNothingSelected(parent: AdapterView<*>) {
-
-            }
+            override fun onNothingSelected(parent: AdapterView<*>) {}
         }
-
     }
 }
