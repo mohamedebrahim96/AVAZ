@@ -5,12 +5,9 @@ import com.vacuum.avaz.R
 import android.content.Context.MODE_PRIVATE
 import com.vacuum.avaz.MainActivity
 
-
-class Utility
-{
+class Utility {
     private var sTheme: Int = 0
     val MY_PREFS_NAME = "avaz"
-
     val Light_Theme = 0
     val Dark_Theme = 1
     val BBC_Theme = 2
