@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -7,8 +7,6 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
-
 
     <!-- =============================================================== -->
     <!-- Light-Theme-styles -->
@@ -48,7 +46,12 @@
     <style name="navigationview_light" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@color/black</item>
     </style>
-
+    <style name="icons_light" >
+        <item name="android:tint">@color/yellow</item>
+    </style>
+    <style name="tablayout_light" >
+        <item name="android:background">@color/bbc</item>
+    </style>
 
 
 
@@ -85,10 +88,68 @@
         <item name="android:background">@color/dark_grey</item>
     </style>
     <style name="toolbar_logo_dark">
-        <item name="android:tint">@color/white2</item>
+        <item name="android:tint">@color/grey2</item>
     </style>
     <style name="navigationview_dark" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@color/grey</item>
     </style>
+    <style name="icons_dark" >
+        <item name="android:tint">@color/grey2</item>
+    </style>
+    <style name="tablayout_dark" >
+        <item name="android:background">@color/bbc</item>
+    </style>
+
+
+
+
+
+
+
+    <!-- =============================================================== -->
+    <!-- BBC-Theme-styles -->
+    <!-- =============================================================== -->
+    <style name="title_post_bbc">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="description_post_bbc">
+        <item name="android:textColor">@color/white2</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="time_post_bbc">
+        <item name="android:textColor">@color/white2</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="comments_post_bbc">
+        <item name="android:textColor">@color/white2</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="background_post_bbc">
+        <item name="android:background">@color/dark_bbc</item>
+    </style>
+    <style name="recyclerview_post_bbc">
+        <item name="android:background">@color/dark_bbc</item>
+    </style>
+    <style name="toolbar_bbc">
+        <item name="android:background">@color/bbc</item>
+    </style>
+    <style name="toolbar_logo_bbc">
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="navigationview_bbc" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/grey</item>
+    </style>
+    <style name="icons_bbc" >
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="tablayout_bbc" >
+        <item name="android:background">@color/bbc</item>
+    </style>
+
+
 
 </resources>

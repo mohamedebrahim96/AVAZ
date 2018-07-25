@@ -7,10 +7,11 @@ import com.vacuum.avaz.R
 
 class Utility
 {
-    private var sTheme: Int = 1
+    private var sTheme: Int = 2
 
     val Light_Theme = 0
     val Dark_Theme = 1
+    val BBC_Theme = 2
 
     fun changeToTheme(activity: Activity, theme: Int) {
         sTheme = theme
@@ -24,6 +25,7 @@ class Utility
         when (sTheme) {
             Light_Theme -> activity.setTheme(R.style.Light_Theme)
             Dark_Theme -> activity.setTheme(R.style.Dark_Theme)
+            BBC_Theme -> activity.setTheme(R.style.BBC_Theme)
             else -> activity.setTheme(R.style.Light_Theme)
         }
     }

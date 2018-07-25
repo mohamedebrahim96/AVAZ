@@ -62,7 +62,6 @@
             android:text="48 Comments"
             android:paddingLeft="10dp"
             android:alpha="0.7"
-            style="?comments_post"
             android:layout_gravity="center"
             fontPath="fonts/airbnb.ttf"
             />
@@ -70,14 +69,15 @@
             android:layout_width="42dp"
             android:layout_height="42dp"
             android:scaleType="centerCrop"
-            android:background="@drawable/if_jee_67_2180667"
-            style="icons"
+            android:src="@drawable/if_jee_67_2180667"
+            style="?icons"
             />
         <ImageView
             android:layout_width="42dp"
             android:layout_height="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/if_sed_01_2232584"
+            style="?icons"
             />
     </LinearLayout>
 

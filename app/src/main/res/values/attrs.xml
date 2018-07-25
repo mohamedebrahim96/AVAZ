@@ -11,5 +11,6 @@
     <attr name="toolbar_logo" format="reference" />
     <attr name="navigationview" format="reference" />
     <attr name="icons" format="reference" />
+    <attr name="tablayout" format="reference" />
 
 </resources>
