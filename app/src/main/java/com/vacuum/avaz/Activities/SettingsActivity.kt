@@ -33,9 +33,7 @@ class SettingsActivity : ContextActivity() {
         sTheme = prefs.getInt("theme", 0)
         spThemes!!.setSelection(sTheme)
         sTheme = spThemes!!.selectedItemPosition
-
         spThemes!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-
             override fun onItemSelected(parent: AdapterView<*>, view: View,
                                         position: Int, id: Long) {
                 if (sTheme != position) {
