@@ -27,13 +27,13 @@ class SettingsActivity : ContextActivity() {
     private fun setupSpinnerItemSelection() {
         spThemes = findViewById(R.id.spThemes) as Spinner
         spThemes!!.setSelection(ThemeApplication.currentPosition)
-        //ThemeApplication.currentPosition = spThemes!!.selectedItemPosition
+        ThemeApplication.currentPosition = spThemes!!.selectedItemPosition
 
         spThemes!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
 
             override fun onItemSelected(parent: AdapterView<*>, view: View,
                                         position: Int, id: Long) {
-                if (0 != position) {
+                if (ThemeApplication.currentPosition != position) {
                     Utility().changeToTheme(this@SettingsActivity, position)
                 }
                 ThemeApplication.currentPosition = position

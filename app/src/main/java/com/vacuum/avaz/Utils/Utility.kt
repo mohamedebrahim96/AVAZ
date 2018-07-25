@@ -1,6 +1,7 @@
 package com.vacuum.avaz.Utils
 import android.app.Activity
 import android.content.Intent
+import com.vacuum.avaz.Activities.SettingsActivity
 import com.vacuum.avaz.MainActivity
 import com.vacuum.avaz.R
 
@@ -15,7 +16,7 @@ class Utility
     fun changeToTheme(activity: Activity, theme: Int) {
         sTheme = theme
         activity.finish()
-        activity.startActivity(Intent(activity, MainActivity::class.java))
+        activity.startActivity(Intent(activity, SettingsActivity::class.java))
         activity.overridePendingTransition(android.R.anim.fade_in,
                 android.R.anim.fade_out)
     }
