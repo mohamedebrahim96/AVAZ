@@ -51,29 +51,23 @@ class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelecte
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
     }
-
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)
         toggle.syncState()
     }
-
     override fun onConfigurationChanged(newConfig: Configuration?) {
         super.onConfigurationChanged(newConfig)
         toggle.onConfigurationChanged(newConfig)
     }
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main_menu, menu)
-        return true
-    }
+        return true }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         if (toggle.onOptionsItemSelected(item)) {
             return true
         }
         return super.onOptionsItemSelected(item)
     }
-
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_item_one ->{
