@@ -18,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        style="?navigationview"
         app:menu="@menu/homepage_leftdrawer" />
 
 </android.support.v4.widget.DrawerLayout>

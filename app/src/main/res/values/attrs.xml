@@ -9,5 +9,7 @@
     <attr name="recyclerview_post" format="reference" />
     <attr name="toolbar" format="reference" />
     <attr name="toolbar_logo" format="reference" />
+    <attr name="navigationview" format="reference" />
+    <attr name="icons" format="reference" />
 
 </resources>

@@ -13,7 +13,9 @@
         style="?recyclerview_post" />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
         android:id="@+id/poster"
         />
     <TextView
@@ -69,6 +71,7 @@
             android:layout_height="42dp"
             android:scaleType="centerCrop"
             android:background="@drawable/if_jee_67_2180667"
+            style="icons"
             />
         <ImageView
             android:layout_width="42dp"
@@ -77,11 +80,5 @@
             android:src="@drawable/if_sed_01_2232584"
             />
     </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/grey"
-        android:alpha="0.5"
-        />
 
 </LinearLayout>

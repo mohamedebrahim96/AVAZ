@@ -28,7 +28,6 @@ class ArticleAdapter(val items_article: ArrayList<Article>, val context: Context
         holder?.description?.text = items_article[position].description
         Glide.with(context)
                 .load(items_article[position].poster)
-                .asBitmap().centerCrop()
                 .into(holder?.poster)
 
     }

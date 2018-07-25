@@ -2,7 +2,6 @@ package com.vacuum.avaz.Utils
 import android.app.Activity
 import android.content.Intent
 import com.vacuum.avaz.Activities.SettingsActivity
-import com.vacuum.avaz.MainActivity
 import com.vacuum.avaz.R
 
 

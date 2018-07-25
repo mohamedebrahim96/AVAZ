@@ -34,7 +34,7 @@
         <item name="android:textSize">12sp</item>
     </style>
     <style name="background_post_light">
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@drawable/background_post_shadow</item>
     </style>
     <style name="recyclerview_post_light">
     <item name="android:background">@color/white</item>
@@ -45,6 +45,14 @@
     <style name="toolbar_logo_light">
         <item name="android:tint">@color/black</item>
     </style>
+    <style name="navigationview_light" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/black</item>
+    </style>
+
+
+
+
+
     <!-- =============================================================== -->
     <!-- Dark-Theme-styles -->
     <!-- =============================================================== -->
@@ -77,8 +85,10 @@
         <item name="android:background">@color/dark_grey</item>
     </style>
     <style name="toolbar_logo_dark">
-        <item name="android:tint">@color/white</item>
+        <item name="android:tint">@color/white2</item>
     </style>
-
+    <style name="navigationview_dark" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/grey</item>
+    </style>
 
 </resources>

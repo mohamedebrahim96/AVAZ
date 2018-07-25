@@ -15,6 +15,8 @@
 
         <item name="toolbar">@style/toolbar_light</item>
         <item name="toolbar_logo">@style/toolbar_logo_light</item>
+        <item name="navigationview">@style/navigationview_light</item>
+
     </style>
 
     <style name="Dark_Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
@@ -31,6 +33,8 @@
         <item name="recyclerview_post">@style/recyclerview_post_dark</item>
         <item name="toolbar">@style/toolbar_dark</item>
         <item name="toolbar_logo">@style/toolbar_logo_dark</item>
+        <item name="navigationview">@style/navigationview_dark</item>
+
     </style>
 
 </resources>
