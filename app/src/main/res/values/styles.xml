@@ -109,7 +109,7 @@
 
     <style name="tablayout_dark" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@color/white2</item>
-        <item name="tabBackground">@color/black</item>
+        <item name="tabBackground">@color/dark_grey</item>
         <item name="tabTextAppearance">@style/AppTabTextAppearance_dark</item>
         <item name="tabSelectedTextColor">@color/white</item>
 

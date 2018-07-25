@@ -16,5 +16,6 @@
     <string-array name="theme_array">
         <item>Light-Theme</item>
         <item>Dark-Theme</item>
+        <item>BBC-Theme</item>
     </string-array>
 </resources>
