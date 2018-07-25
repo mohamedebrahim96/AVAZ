@@ -13,9 +13,6 @@ import com.vacuum.avaz.Model.Article
 import com.vacuum.avaz.R
 
 
-/**
- * A simple [Fragment] subclass.
- */
 class SecondFragment : Fragment() {
 
 
