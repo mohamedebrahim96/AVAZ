@@ -49,10 +49,20 @@
     <style name="icons_light" >
         <item name="android:tint">@color/yellow</item>
     </style>
-    <style name="tablayout_light" >
-        <item name="android:background">@color/bbc</item>
+    <style name="tablayout_light" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="tabBackground">@color/white</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance_light</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+
     </style>
 
+    <!-- for text -->
+    <style name="AppTabTextAppearance_light" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="textAllCaps">false</item>
+    </style>
 
 
 
@@ -96,10 +106,21 @@
     <style name="icons_dark" >
         <item name="android:tint">@color/grey2</item>
     </style>
-    <style name="tablayout_dark" >
-        <item name="android:background">@color/bbc</item>
+
+    <style name="tablayout_dark" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white2</item>
+        <item name="tabBackground">@color/black</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance_dark</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+
     </style>
 
+    <!-- for text -->
+    <style name="AppTabTextAppearance_dark" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="textAllCaps">false</item>
+    </style>
 
 
 
@@ -116,7 +137,7 @@
     </style>
 
     <style name="description_post_bbc">
-        <item name="android:textColor">@color/white2</item>
+        <item name="android:textColor">@color/grey</item>
         <item name="android:textSize">15sp</item>
     </style>
 
@@ -132,7 +153,7 @@
         <item name="android:background">@color/dark_bbc</item>
     </style>
     <style name="recyclerview_post_bbc">
-        <item name="android:background">@color/dark_bbc</item>
+        <item name="android:background">@color/dark_bbc2</item>
     </style>
     <style name="toolbar_bbc">
         <item name="android:background">@color/bbc</item>
@@ -146,10 +167,20 @@
     <style name="icons_bbc" >
         <item name="android:tint">@color/white</item>
     </style>
-    <style name="tablayout_bbc" >
-        <item name="android:background">@color/bbc</item>
+
+    <style name="tablayout_bbc" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white2</item>
+        <item name="tabBackground">@color/bbc</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance_bbc</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+
     </style>
 
-
+    <!-- for text -->
+    <style name="AppTabTextAppearance_bbc" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="textAllCaps">false</item>
+    </style>
 
 </resources>
