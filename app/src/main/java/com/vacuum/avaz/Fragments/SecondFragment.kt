@@ -28,7 +28,6 @@ class SecondFragment : Fragment() {
         rv_article_list_Fragment2?.layoutManager = LinearLayoutManager(context)
         // Access the RecyclerView Adapter and load the data into it
         rv_article_list_Fragment2?.adapter = ArticleAdapter(articles, activity)
-
         return view
     }
 
