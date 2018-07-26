@@ -32,7 +32,7 @@ class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelecte
         setContentView(R.layout.activity_main)
 
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
-        toolbar.setTitle(null)
+        toolbar.setTitle("")
         setSupportActionBar(toolbar)
         drawer = findViewById(R.id.drawer_layout)
         val navigationView: NavigationView = findViewById(R.id.nav_view)
