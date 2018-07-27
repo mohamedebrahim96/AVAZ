@@ -4,15 +4,18 @@
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
 
-    <string name="settings_text_select_theme">Select Theme:</string>
-    <string name="settings_text_credentials">Credentials</string>
-    <string name="settings_text_username_hint">username</string>
-    <string name="settings_text_password_hint">password</string>
-    <string name="settings_text_sync_automatically">Sync automatically</string>
-    <string name="settings_text_location">Location</string>
-    <string name="settings_text_state_on">On</string>
-    <string name="settings_text_state_off">Off</string>
-    <string name="settings_text_clear_data">Clear Data</string>
+    <string name="Top_Stories">Top Stories</string>
+    <string name="World">World</string>
+    <string name="Technology">Technology</string>
+    <string name="culture">culture</string>
+    <string name="business">business</string>
+    <string name="health">health</string>
+    <string name="sports">sports</string>
+    <string name="environment">environment</string>
+    <string name="religion">religion</string>
+    <string name="Video">video</string>
+
+
     <string-array name="theme_array">
         <item>Light-Theme</item>
         <item>Dark-Theme</item>

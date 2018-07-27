@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     style="?recyclerview_post"
+    android:layout_marginTop="90dp"
     android:layout_height="match_parent" >
 
 
@@ -23,14 +24,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="?title_post"
-            android:text="@string/settings_text_credentials" />
+             />
 
         <EditText
             android:id="@+id/tvUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvCredentials"
-            android:hint="@string/settings_text_username_hint"
             android:inputType="text"
             android:lines="1" />
 
@@ -39,7 +39,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvUsername"
-            android:hint="@string/settings_text_password_hint"
             android:inputType="textPassword"
             android:lines="1" />
     </RelativeLayout>
@@ -49,7 +48,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rlCredentials"
-        android:text="@string/settings_text_sync_automatically"
         android:textSize="17sp" />
 
     <CheckBox
@@ -65,7 +63,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvSync"
-        android:text="@string/settings_text_location"
         android:textSize="17sp" />
 
     <Switch
@@ -74,9 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tvLocation"
         android:layout_alignParentRight="true"
-        android:layout_toRightOf="@+id/tvLocation"
-        android:textOff="@string/settings_text_state_off"
-        android:textOn="@string/settings_text_state_on" />
+        android:layout_toRightOf="@+id/tvLocation" />
 
     <Button
         android:id="@+id/btnClearData"
@@ -84,6 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/settings_text_clear_data" />
+        />
 
 </RelativeLayout>

@@ -24,7 +24,7 @@ class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelecte
     private lateinit var tabs_main: TabLayout
     private lateinit var pagerAdapter: MyPagerAdapter
     private lateinit var viewpager_main: ViewPager
-
+    private lateinit var mContext: Context
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,9 +37,9 @@ class MainActivity : ContextActivity()  , NavigationView.OnNavigationItemSelecte
         drawer = findViewById(R.id.drawer_layout)
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
+        mContext = this
 
-
-        pagerAdapter = MyPagerAdapter(supportFragmentManager)
+        pagerAdapter = MyPagerAdapter(supportFragmentManager,mContext)
         viewpager_main = findViewById(R.id.viewpager_main)
         viewpager_main.adapter = pagerAdapter
         tabs_main = findViewById(R.id.tabs_main)
