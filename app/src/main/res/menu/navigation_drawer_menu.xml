@@ -5,56 +5,56 @@
     >
     <item
         android:id="@+id/top_stories"
-        android:title="Top Stories"
+        android:title="@string/Top_Stories"
         android:icon="@drawable/if_megaphone_3338897"
         />
     <item
         android:id="@+id/world"
-        android:title="World"
+        android:title="@string/World"
         android:icon="@drawable/if_pie_chart_4_3338896"
         />
     <item
         android:id="@+id/technology"
-        android:title="Technology"
+        android:title="@string/Technology"
         android:icon="@drawable/if_get_money_3338979"
         />
     <item
         android:id="@+id/culture"
-        android:title="Culture"
+        android:title="@string/culture"
         android:icon="@drawable/if_presentation_3_3339019"
         />
     <item
         android:id="@+id/religion"
-        android:title="Religion"
+        android:title="@string/religion"
         android:icon="@drawable/if_justice_3338993"
         />
         <group>
             <item android:id="@+id/business"
                 android:icon="@drawable/if_presentation_3_3339019"
-                android:title="Business" />
+                android:title="@string/business" />
             <item android:id="@+id/health"
                 android:icon="@drawable/if_bank_3338917"
-                android:title="Health" />
+                android:title="@string/health" />
             <item android:id="@+id/sports"
                 android:icon="@drawable/if_presentation_3_3339019"
-                android:title="Sports" />
+                android:title="@string/sports" />
         </group>
 
         <group android:id="@+id/group_menu">
             <item android:id="@+id/premium"
-                android:title="Go Premium" />
+                android:title="@string/go_premium" />
             <item android:id="@+id/redeem"
-                android:title="Redeem" />
+                android:title="@string/redeem" />
         </group>
 
-        <item android:title="About">
+        <item android:title="@string/about">
             <menu>
                 <item android:id="@+id/help"
                     android:icon="@drawable/if_icon_ios7_help_outline_211757"
-                    android:title="Help" />
+                    android:title="@string/help" />
                 <item android:id="@+id/about_us"
                     android:icon="@drawable/if_simpline_35_2305625"
-                    android:title="About us" />
+                    android:title="@string/about_us" />
             </menu>
         </item>
 </menu>

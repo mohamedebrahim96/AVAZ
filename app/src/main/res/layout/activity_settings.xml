@@ -14,6 +14,14 @@
         android:entries="@array/theme_array"
         android:spinnerMode="dropdown" />
 
+
+    <Spinner
+        android:id="@+id/splanguages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:entries="@array/language_array"
+        android:spinnerMode="dropdown" />
     <RelativeLayout
         android:id="@+id/rlCredentials"
         android:layout_width="wrap_content"
