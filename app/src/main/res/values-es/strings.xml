@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">avaz</string>
+    <string name="appbar_scrolling_view_behavior">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="Top_Stories">es-Top Stories</string>
+    <string name="World">es-World</string>
+    <string name="Technology">es-Technology</string>
+    <string name="culture">es-culture</string>
+    <string name="business">es-business</string>
+    <string name="health">es-health</string>
+    <string name="sports">es-sports</string>
+    <string name="environment">es-environment</string>
+    <string name="religion">es-religion</string>
+    <string name="Video">es-video</string>
+
+    <string name="go_premium">es-Go Premium</string>
+    <string name="redeem">es-Redeem</string>
+    <string name="about">es-About</string>
+    <string name="help">es-Help</string>
+    <string name="about_us">es-About us</string>
+
+
+    <string-array name="theme_array">
+        <item>Light-Theme</item>
+        <item>Dark-Theme</item>
+        <item>BBC-Theme</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Espanyol</item>
+        <item>French</item>
+    </string-array>
+</resources>
