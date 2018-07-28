@@ -15,7 +15,6 @@ import com.vacuum.avaz.MainActivity
 class SettingsActivity : ContextActivity() {
     private var spThemes: Spinner? = null
     private var splanguages: Spinner? = null
-
     val MY_PREFS_NAME = "avaz"
     var sTheme =0
     var slangage:String?=null
