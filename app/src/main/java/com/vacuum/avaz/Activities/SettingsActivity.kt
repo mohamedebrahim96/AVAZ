@@ -42,6 +42,11 @@ class SettingsActivity : ContextActivity() {
             "fr" -> slangage2 = 2
             "ru" -> slangage2 = 3
             "de" -> slangage2 = 4
+            "ja" -> slangage2 = 5
+            "zh" -> slangage2 = 6
+            "ar" -> slangage2 = 7
+
+
         }
         splanguages!!.setSelection(slangage2!!)
         splanguages!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -84,6 +89,9 @@ class SettingsActivity : ContextActivity() {
             2 -> lang_str = "fr"
             3 -> lang_str = "ru"
             4 -> lang_str = "de"
+            5 -> lang_str = "ja"
+            6 -> lang_str = "zh"
+            7 -> lang_str = "ar"
 
         }
         val editor = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE).edit()

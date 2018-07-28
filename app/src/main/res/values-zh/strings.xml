@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">avaz</string>
+    <string name="appbar_scrolling_view_behavior">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="Top_Stories">热门故事</string>
+    <string name="World">世界</string>
+    <string name="Technology">技术</string>
+    <string name="culture">文化</string>
+    <string name="business">商业</string>
+    <string name="health">健康</string>
+    <string name="sports">体育</string>
+    <string name="environment">环境</string>
+    <string name="religion">宗教</string>
+    <string name="Video">视频</string>
+
+    <string name="go_premium">去高级</string>
+    <string name="redeem">赎回</string>
+    <string name="about">关于</string>
+    <string name="help">帮帮我</string>
+    <string name="about_us">关于我们</string>
+
+    <string name="notifications">通知</string>
+    <string name="text_size">字体大小</string>
+    <string name="settings">设置</string>
+    <string name="send_feedback">发送反馈</string>
+    <string name="subscribe">订阅</string>
+
+
+    <string-array name="theme_array">
+        <item>Light-Theme</item>
+        <item>Dark-Theme</item>
+        <item>BBC-Theme</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Espanyol</item>
+        <item>French</item>
+        <item>русский</item>
+        <item>Deutsche</item>
+        <item>日本語</item>
+        <item>中国語</item>
+        <item>العربية</item>
+    </string-array>
+</resources>

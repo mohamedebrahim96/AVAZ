@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">avaz</string>
+    <string name="appbar_scrolling_view_behavior">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="Top_Stories">أهم الأخبار</string>
+    <string name="World">العالمية</string>
+    <string name="Technology">التقنية</string>
+    <string name="culture">الحضارة</string>
+    <string name="business">الاعمال</string>
+    <string name="health">الصحة</string>
+    <string name="sports">الرياضة</string>
+    <string name="environment">بيئة</string>
+    <string name="religion">دين</string>
+    <string name="Video">فيديو</string>
+
+    <string name="go_premium">احصل على الاشتراك الرئيسي</string>
+    <string name="redeem">خلص</string>
+    <string name="about">حول</string>
+    <string name="help">مساعدة</string>
+    <string name="about_us">معلومات عنا</string>
+
+    <string name="notifications">اشعارات</string>
+    <string name="text_size">حجم الخط</string>
+    <string name="settings">إعدادات</string>
+    <string name="send_feedback">ارسل رأيك</string>
+    <string name="subscribe">الاشتراك</string>
+
+    <string-array name="theme_array">
+        <item>Light-Theme</item>
+        <item>Dark-Theme</item>
+        <item>BBC-Theme</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Espanyol</item>
+        <item>French</item>
+        <item>русский</item>
+        <item>日本語</item>
+        <item>中国語</item>
+        <item>العربية</item>
+
+
+
+    </string-array>
+</resources>
