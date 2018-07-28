@@ -15,7 +15,7 @@
     <string name="religion">религия</string>
     <string name="Video">видео</string>
 
-    <string name="go_premium">Go Premium</string>
+    <string name="go_premium">идти премиум</string>
     <string name="redeem">Выкупать</string>
     <string name="about">Около</string>
     <string name="help">Помогите</string>
@@ -41,5 +41,8 @@
         <item>French</item>
         <item>русский</item>
         <item>Deutsche</item>
+        <item>日本語</item>
+        <item>中国語</item>
+        <item>العربية</item>
     </string-array>
 </resources>

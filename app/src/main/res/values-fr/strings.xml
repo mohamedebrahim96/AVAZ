@@ -39,5 +39,8 @@
         <item>French</item>
         <item>русский</item>
         <item>Deutsche</item>
+        <item>日本語</item>
+        <item>中国語</item>
+        <item>العربية</item>
     </string-array>
 </resources>
