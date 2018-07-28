@@ -31,5 +31,7 @@
         <item>English</item>
         <item>Espanyol</item>
         <item>French</item>
+        <item>русский</item>
+        <item>Deutsche</item>
     </string-array>
 </resources>

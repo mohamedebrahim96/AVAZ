@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">avaz</string>
+    <string name="appbar_scrolling_view_behavior">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="Top_Stories">Лучшие истории</string>
+    <string name="World">Мир</string>
+    <string name="Technology">Технологии</string>
+    <string name="culture">культура</string>
+    <string name="business">бизнес</string>
+    <string name="health">здоровье</string>
+    <string name="sports">виды спорта</string>
+    <string name="environment">Окружающая среда</string>
+    <string name="religion">религия</string>
+    <string name="Video">видео</string>
+
+    <string name="go_premium">Go Premium</string>
+    <string name="redeem">Выкупать</string>
+    <string name="about">Около</string>
+    <string name="help">Помогите</string>
+    <string name="about_us">О нас</string>
+
+
+    <string-array name="theme_array">
+        <item>Light-Theme</item>
+        <item>Dark-Theme</item>
+        <item>BBC-Theme</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Espanyol</item>
+        <item>French</item>
+        <item>русский</item>
+        <item>Deutsche</item>
+    </string-array>
+</resources>
