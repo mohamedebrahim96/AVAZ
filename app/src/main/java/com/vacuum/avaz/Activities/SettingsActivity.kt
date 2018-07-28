@@ -10,7 +10,6 @@ import com.vacuum.avaz.R
 import com.vacuum.avaz.Utils.Utility
 import android.content.Intent
 import com.vacuum.avaz.MainActivity
-import java.util.*
 
 
 class SettingsActivity : ContextActivity() {
@@ -19,7 +18,6 @@ class SettingsActivity : ContextActivity() {
 
     val MY_PREFS_NAME = "avaz"
     var sTheme =0
-    var myLocale:Locale?=null
     var slangage:String?=null
     var slangage2:Int?=null
     // Here we set the theme for the activity
@@ -42,6 +40,8 @@ class SettingsActivity : ContextActivity() {
             "en" -> slangage2 = 0
             "es" -> slangage2 = 1
             "fr" -> slangage2 = 2
+            "ru" -> slangage2 = 3
+            "de" -> slangage2 = 4
         }
         splanguages!!.setSelection(slangage2!!)
         splanguages!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -82,6 +82,9 @@ class SettingsActivity : ContextActivity() {
             0 -> lang_str = "en"
             1 ->lang_str = "es"
             2 -> lang_str = "fr"
+            3 -> lang_str = "ru"
+            4 -> lang_str = "de"
+
         }
         val editor = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE).edit()
         editor.putString("language", lang_str)
