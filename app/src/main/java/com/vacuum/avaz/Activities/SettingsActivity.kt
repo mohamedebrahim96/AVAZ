@@ -45,8 +45,6 @@ class SettingsActivity : ContextActivity() {
             "ja" -> slangage2 = 5
             "zh" -> slangage2 = 6
             "ar" -> slangage2 = 7
-
-
         }
         splanguages!!.setSelection(slangage2!!)
         splanguages!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -59,7 +57,6 @@ class SettingsActivity : ContextActivity() {
             override fun onNothingSelected(parent: AdapterView<*>) {}
         }
     }
-
     private fun setupSpinnerItemSelection() {
         spThemes = findViewById(R.id.spThemes) as Spinner
         val prefs = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE)
@@ -80,24 +77,21 @@ class SettingsActivity : ContextActivity() {
             override fun onNothingSelected(parent: AdapterView<*>) {}
         }
     }
-
     fun setLocale(lang: Int) {
         var lang_str: String? = "en"
         when(lang){
             0 -> lang_str = "en"
-            1 ->lang_str = "es"
+            1 -> lang_str = "es"
             2 -> lang_str = "fr"
             3 -> lang_str = "ru"
             4 -> lang_str = "de"
             5 -> lang_str = "ja"
             6 -> lang_str = "zh"
             7 -> lang_str = "ar"
-
         }
         val editor = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE).edit()
         editor.putString("language", lang_str)
         editor.apply()
-
         //=======================================
         finish()
         startActivity(Intent(this, MainActivity::class.java))
