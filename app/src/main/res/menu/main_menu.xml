@@ -5,39 +5,39 @@
     >
     <item
         android:id="@+id/action_cut"
-        android:title="Notifications"
+        android:title="@string/notifications"
         android:icon="@drawable/if_megaphone_3338897"
         />
     <item
         android:id="@+id/action_copy"
-        android:title="Text Size"
+        android:title="@string/text_size"
         android:icon="@drawable/if_pie_chart_4_3338896"
         />
     <item
         android:id="@+id/action_paste"
-        android:title="Settings"
+        android:title="@string/settings"
         android:icon="@drawable/if_get_money_3338979"
         />
     <item
         android:id="@+id/action_new"
-        android:title="Send Feedback"
+        android:title="@string/send_feedback"
         android:icon="@drawable/if_presentation_3_3339019"
         />
     <item
         android:id="@+id/action_new2"
-        android:title="Subscribe"
+        android:title="@string/subscribe"
         android:icon="@drawable/if_justice_3338993"
         />
 
 
-    <item android:title="About">
+    <item android:title="@string/about">
         <menu>
             <item android:id="@+id/nav_item_six"
                 android:icon="@drawable/if_icon_ios7_help_outline_211757"
-                android:title="Help" />
+                android:title="@string/help" />
             <item android:id="@+id/nav_item_seven"
                 android:icon="@drawable/if_simpline_35_2305625"
-                android:title="About us" />
+                android:title="@string/about_us" />
         </menu>
     </item>
 </menu>

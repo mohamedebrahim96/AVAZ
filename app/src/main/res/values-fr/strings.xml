@@ -22,6 +22,12 @@
     <string name="about_us">À propos de nous</string>
 
 
+    <string name="notifications">Notifications</string>
+    <string name="text_size">Taille du texte</string>
+    <string name="settings">Paramètres</string>
+    <string name="send_feedback">Envoyer des commentaires</string>
+    <string name="subscribe">Souscrire</string>
+
     <string-array name="theme_array">
         <item>Light-Theme</item>
         <item>Dark-Theme</item>

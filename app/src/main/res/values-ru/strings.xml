@@ -22,6 +22,14 @@
     <string name="about_us">О нас</string>
 
 
+
+    <string name="notifications">Уведомления</string>
+    <string name="text_size">Размер текста</string>
+    <string name="settings">настройки</string>
+    <string name="send_feedback">Отправить отзыв</string>
+    <string name="subscribe">Подписывайся</string>
+
+
     <string-array name="theme_array">
         <item>Light-Theme</item>
         <item>Dark-Theme</item>
