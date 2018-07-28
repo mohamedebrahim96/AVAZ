@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Light_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="title_post">@style/title_post_light</item>
+        <item name="description_post">@style/description_post_light</item>
+        <item name="time_post">@style/time_post_light</item>
+        <item name="comments_post">@style/comments_post_light</item>
+        <item name="background_post">@style/background_post_light</item>
+        <item name="recyclerview_post">@style/recyclerview_post_light</item>
+
+        <item name="toolbar">@style/toolbar_light</item>
+        <item name="toolbar_logo">@style/toolbar_logo_light</item>
+        <item name="navigationview">@style/navigationview_light</item>
+        <item name="icons">@style/icons_light</item>
+        <item name="tablayout">@style/tablayout_light</item>
+
+    </style>
+
+    <style name="Dark_Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="title_post">@style/title_post_dark</item>
+        <item name="description_post">@style/description_post_dark</item>
+        <item name="time_post">@style/time_post_dark</item>
+        <item name="comments_post">@style/comments_post_dark</item>
+        <item name="background_post">@style/background_post_dark</item>
+
+        <item name="recyclerview_post">@style/recyclerview_post_dark</item>
+        <item name="toolbar">@style/toolbar_dark</item>
+        <item name="toolbar_logo">@style/toolbar_logo_dark</item>
+        <item name="icons">@style/icons_dark</item>
+        <item name="navigationview">@style/navigationview_dark</item>
+        <item name="tablayout">@style/tablayout_dark</item>
+
+
+    </style>
+
+
+    <style name="BBC_Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="colorPrimary">@color/bbc</item>
+        <item name="colorPrimaryDark">@color/dark_bbc2</item>
+        <item name="colorAccent">@color/bbc</item>
+
+        <item name="title_post">@style/title_post_bbc</item>
+        <item name="description_post">@style/description_post_bbc</item>
+        <item name="time_post">@style/time_post_bbc</item>
+        <item name="comments_post">@style/comments_post_bbc</item>
+        <item name="background_post">@style/background_post_bbc</item>
+
+        <item name="recyclerview_post">@style/recyclerview_post_bbc</item>
+        <item name="toolbar">@style/toolbar_bbc</item>
+        <item name="toolbar_logo">@style/toolbar_logo_bbc</item>
+        <item name="icons">@style/icons_bbc</item>
+        <item name="navigationview">@style/navigationview_bbc</item>
+        <item name="tablayout">@style/tablayout_bbc</item>
+
+
+    </style>
+
+
+</resources>

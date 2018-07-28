@@ -4,22 +4,21 @@
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
 
-    <string name="Top_Stories">es-Top Stories</string>
-    <string name="World">es-World</string>
-    <string name="Technology">es-Technology</string>
-    <string name="culture">es-culture</string>
-    <string name="business">es-business</string>
-    <string name="health">es-health</string>
-    <string name="sports">es-sports</string>
-    <string name="environment">es-environment</string>
-    <string name="religion">es-religion</string>
-    <string name="Video">es-video</string>
-
-    <string name="go_premium">es-Go Premium</string>
-    <string name="redeem">es-Redeem</string>
-    <string name="about">es-About</string>
-    <string name="help">es-Help</string>
-    <string name="about_us">es-About us</string>
+    <string name="Top_Stories">Historias principales</string>
+    <string name="World">Mundo</string>
+    <string name="Technology">Tecnología</string>
+    <string name="culture">cultura</string>
+    <string name="business">negocio</string>
+    <string name="health">salud</string>
+    <string name="sports">Deportes</string>
+    <string name="environment">ambiente</string>
+    <string name="religion">religión</string>
+    <string name="Video">vídeo</string>
+    <string name="go_premium">Hazte Premium</string>
+    <string name="redeem">Redimir</string>
+    <string name="about">Acerca de</string>
+    <string name="help">Ayuda</string>
+    <string name="about_us">Sobre nosotros</string>
 
 
     <string-array name="theme_array">
