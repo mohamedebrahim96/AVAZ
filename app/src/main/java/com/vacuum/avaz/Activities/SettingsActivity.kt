@@ -9,7 +9,7 @@ import com.vacuum.avaz.ContextActivity
 import com.vacuum.avaz.R
 import com.vacuum.avaz.Utils.Utility
 import android.content.Intent
-import android.util.DisplayMetrics
+import com.vacuum.avaz.MainActivity
 import java.util.*
 
 
@@ -20,8 +20,8 @@ class SettingsActivity : ContextActivity() {
     val MY_PREFS_NAME = "avaz"
     var sTheme =0
     var myLocale:Locale?=null
-    var slangage:Int?=null
-
+    var slangage:String?=null
+    var slangage2:Int?=null
     // Here we set the theme for the activity
     // Note `Utils.onActivityCreateSetTheme` must be called before `setContentView`
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,13 +37,19 @@ class SettingsActivity : ContextActivity() {
     private fun setupSpinner2() {
         splanguages = findViewById(R.id.splanguages) as Spinner
         val prefs = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE)
-        slangage = prefs.getInt("language", 0)
-        splanguages!!.setSelection(slangage!!)
+        slangage = prefs.getString("language", "en")
+        when(slangage){
+            "en" -> slangage2 = 0
+            "es" -> slangage2 = 1
+            "fr" -> slangage2 = 2
+        }
+        splanguages!!.setSelection(slangage2!!)
         splanguages!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: View,
                                         position: Int, id: Long) {
-
-                setLocale(position)
+                if (slangage2 != position) {
+                    setLocale(position)
+                }
             }
             override fun onNothingSelected(parent: AdapterView<*>) {}
         }
@@ -70,22 +76,21 @@ class SettingsActivity : ContextActivity() {
         }
     }
 
-    fun setLocale(lang: String) {
-        val editor = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE).edit()
-        editor.putString("language", lang)
-        editor.apply()
+    fun setLocale(lang: Int) {
+        var lang_str: String? = "en"
         when(lang){
-            0 -> myLocale = Locale("en")
-            1 -> myLocale = Locale("es")
-            2 -> myLocale = Locale("fr")
-
+            0 -> lang_str = "en"
+            1 ->lang_str = "es"
+            2 -> lang_str = "fr"
         }
-        val res = resources
-        val dm = res.displayMetrics
-        val conf = res.configuration
-        conf.locale = myLocale
-        res.updateConfiguration(conf, dm)
-        val refresh = Intent(this, SettingsActivity::class.java)
-        startActivity(refresh)
+        val editor = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE).edit()
+        editor.putString("language", lang_str)
+        editor.apply()
+
+        //=======================================
+        finish()
+        startActivity(Intent(this, MainActivity::class.java))
+        overridePendingTransition(android.R.anim.fade_in,
+                android.R.anim.fade_out)
     }
 }
