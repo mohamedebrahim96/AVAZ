@@ -1,4 +1,4 @@
-package com.ogulcan.android.mvp.app.ui.list
+package com.vacuum.avaz.ui.list
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -9,12 +9,12 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.ogulcan.android.mvp.app.R
-import com.ogulcan.android.mvp.app.di.component.DaggerFragmentComponent
-import com.ogulcan.android.mvp.app.di.module.FragmentModule
-import com.ogulcan.android.mvp.app.models.DetailsViewModel
-import com.ogulcan.android.mvp.app.models.Post
-import com.ogulcan.android.mvp.app.util.SwipeToDelete
+import com.vacuum.avaz.R
+import com.vacuum.avaz.di.component.DaggerFragmentComponent
+import com.vacuum.avaz.di.module.FragmentModule
+import com.vacuum.avaz.models.DetailsViewModel
+import com.vacuum.avaz.models.Post
+import com.vacuum.avaz.util.SwipeToDelete
 import kotlinx.android.synthetic.main.fragment_list.*
 import javax.inject.Inject
 

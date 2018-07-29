@@ -1,10 +1,10 @@
-package com.ogulcan.android.mvp.app.ui.list
+package com.vacuum.avaz.ui.list
 
-import com.ogulcan.android.mvp.app.api.ApiServiceInterface
-import com.ogulcan.android.mvp.app.models.Album
-import com.ogulcan.android.mvp.app.models.DetailsViewModel
-import com.ogulcan.android.mvp.app.models.Post
-import com.ogulcan.android.mvp.app.models.User
+import com.vacuum.avaz.api.ApiServiceInterface
+import com.vacuum.avaz.models.Album
+import com.vacuum.avaz.models.DetailsViewModel
+import com.vacuum.avaz.models.Post
+import com.vacuum.avaz.models.User
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable

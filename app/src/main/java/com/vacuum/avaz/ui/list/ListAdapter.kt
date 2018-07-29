@@ -1,4 +1,4 @@
-package com.ogulcan.android.mvp.app.ui.list
+package com.vacuum.avaz.ui.list
 
 import android.content.Context
 import android.support.constraint.ConstraintLayout
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.ogulcan.android.mvp.app.R
-import com.ogulcan.android.mvp.app.models.Post
+import com.vacuum.avaz.R
+import com.vacuum.avaz.models.Post
 
 /**
  * Created by ogulcan on 07/02/2018.

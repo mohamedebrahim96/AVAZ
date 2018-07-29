@@ -1,4 +1,4 @@
-package com.ogulcan.android.mvp.app.ui.list
+package com.vacuum.avaz.ui.list
 
 import com.ogulcan.android.mvp.app.ui.base.BaseContract
 import com.ogulcan.android.mvp.app.models.DetailsViewModel
