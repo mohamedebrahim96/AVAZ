@@ -1,8 +1,8 @@
-package com.ogulcan.android.mvp.app.di.module
+package com.vacuum.avaz.di.module
 
 import android.app.Application
-import com.ogulcan.android.mvp.app.BaseApp
-import com.ogulcan.android.mvp.app.di.scope.PerApplication
+import com.vacuum.avaz.BaseApp
+import com.vacuum.avaz.di.scope.PerApplication
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import com.ogulcan.android.mvp.app.R
-import com.ogulcan.android.mvp.app.di.component.DaggerActivityComponent
-import com.ogulcan.android.mvp.app.di.module.ActivityModule
-import com.ogulcan.android.mvp.app.ui.about.AboutFragment
-import com.ogulcan.android.mvp.app.ui.list.ListFragment
+import com.vacuum.avaz.MainContract
+import com.vacuum.avaz.di.component.DaggerActivityComponent
+import com.vacuum.avaz.di.module.ActivityModule
+import com.vacuum.avaz.ui.about.AboutFragment
+import com.vacuum.avaz.ui.list.ListFragment
+import com.vacuum.avaz.ui.main.MainContract
+import com.vacuum.avaz.R
 import javax.inject.Inject
 
 /**
@@ -31,7 +33,7 @@ class MainActivity: AppCompatActivity(), MainContract.View {
         test()
     }
 
-    override fun showAboutFragment() {
+    /*override fun showAboutFragment() {
         if (supportFragmentManager.findFragmentByTag(AboutFragment.TAG) == null) {
             supportFragmentManager.beginTransaction()
                     .addToBackStack(null)
@@ -41,7 +43,7 @@ class MainActivity: AppCompatActivity(), MainContract.View {
         } else {
             // Maybe an animation like shake hello text
         }
-    }
+    }*/
 
     override fun showListFragment() {
         supportFragmentManager.beginTransaction()

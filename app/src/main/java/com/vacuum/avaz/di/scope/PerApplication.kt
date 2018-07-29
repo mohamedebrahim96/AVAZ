@@ -1,4 +1,4 @@
-package com.ogulcan.android.mvp.app.di.scope
+package com.vacuum.avaz.di.scope
 
 import javax.inject.Qualifier
 

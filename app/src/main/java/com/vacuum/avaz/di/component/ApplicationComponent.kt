@@ -1,7 +1,7 @@
-package com.ogulcan.android.mvp.app.di.component
+package com.vacuum.avaz.di.component
 
-import com.ogulcan.android.mvp.app.BaseApp
-import com.ogulcan.android.mvp.app.di.module.ApplicationModule
+import com.vacuum.avaz.BaseApp
+import com.vacuum.avaz.di.module.ApplicationModule
 import dagger.Component
 
 /**
