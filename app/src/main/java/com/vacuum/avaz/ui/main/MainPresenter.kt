@@ -1,4 +1,4 @@
-package com.ogulcan.android.mvp.app.ui.main
+package com.vacuum.avaz.ui.main
 
 import io.reactivex.disposables.CompositeDisposable
 

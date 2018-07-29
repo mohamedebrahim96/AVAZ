@@ -1,8 +1,8 @@
-package com.ogulcan.android.mvp.app.di.module
+package com.vacuum.avaz.ui.main
 
 import android.app.Activity
-import com.ogulcan.android.mvp.app.ui.main.MainContract
-import com.ogulcan.android.mvp.app.ui.main.MainPresenter
+import com.vacuum.avaz.ui.main.MainContract
+import com.vacuum.avaz.ui.main.MainPresenter
 import dagger.Module
 import dagger.Provides
 

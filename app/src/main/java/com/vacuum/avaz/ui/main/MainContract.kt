@@ -1,4 +1,4 @@
-package com.vacuum.avaz
+package com.vacuum.avaz.ui.main
 
 import com.vacuum.avaz.ui.base.BaseContract
 
