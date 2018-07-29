@@ -15,9 +15,8 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import com.vacuum.avaz.Activities.SettingsActivity
-import com.vacuum.avaz.Utils.Utility
+import com.vacuum.avaz.util.Utility
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
-import android.util.DisplayMetrics
 import java.util.*
 
 

@@ -1,4 +1,4 @@
-package com.vacuum.avaz.Utils
+package com.vacuum.avaz.util
 
 import android.app.Application
 import com.vacuum.avaz.R

@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.vacuum.avaz.Adapters.ArticleAdapter
-import com.vacuum.avaz.Model.Article
+import com.vacuum.avaz.models.Article
 import com.vacuum.avaz.R
 
 

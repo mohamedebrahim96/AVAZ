@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
-import com.vacuum.avaz.Model.Article
+import com.vacuum.avaz.models.Article
 import com.vacuum.avaz.R
 import kotlinx.android.synthetic.main.article_list_item.view.*
 

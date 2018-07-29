@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.View
 import com.vacuum.avaz.ContextActivity
 import com.vacuum.avaz.R
-import com.vacuum.avaz.Utils.Utility
+import com.vacuum.avaz.util.Utility
 import android.content.Intent
 import com.vacuum.avaz.MainActivity
 

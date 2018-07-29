@@ -1,6 +1,5 @@
-package com.vacuum.avaz.Utils
+package com.vacuum.avaz.util
 import android.app.Activity
-import android.content.Context
 import android.content.Intent
 import com.vacuum.avaz.R
 import android.content.Context.MODE_PRIVATE
