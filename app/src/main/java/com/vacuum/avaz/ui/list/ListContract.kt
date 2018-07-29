@@ -1,8 +1,8 @@
 package com.vacuum.avaz.ui.list
 
-import com.ogulcan.android.mvp.app.ui.base.BaseContract
-import com.ogulcan.android.mvp.app.models.DetailsViewModel
-import com.ogulcan.android.mvp.app.models.Post
+import com.vacuum.avaz.ui.base.BaseContract
+import com.vacuum.avaz.models.DetailsViewModel
+import com.vacuum.avaz.models.Post
 
 /**
  * Created by ogulcan on 07/02/2018.
