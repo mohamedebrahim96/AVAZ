@@ -55,7 +55,7 @@ class AboutFragment: Fragment(), AboutContract.View {
     }
 
     override fun loadMessageSuccess(message: String) {
-        aboutText.text = getString(R.string.about_text)
+        aboutText.text = "about_text"
         aboutText.visibility = View.VISIBLE
     }
 

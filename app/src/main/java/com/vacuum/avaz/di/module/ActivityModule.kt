@@ -1,4 +1,4 @@
-package com.vacuum.avaz.ui.main
+package com.vacuum.avaz.di.module
 
 import android.app.Activity
 import com.vacuum.avaz.ui.main.MainContract

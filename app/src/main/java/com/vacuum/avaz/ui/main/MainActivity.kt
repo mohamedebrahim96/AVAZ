@@ -19,9 +19,10 @@ import com.vacuum.avaz.Activities.SettingsActivity
 import com.vacuum.avaz.MyPagerAdapter
 import com.vacuum.avaz.ui.main.MainContract
 import com.vacuum.avaz.ui.list.ListFragment
+import com.vacuum.avaz.di.component.DaggerActivityComponent
 import com.vacuum.avaz.R
+import com.vacuum.avaz.di.module.ActivityModule
 import com.vacuum.avaz.ui.about.AboutFragment
-import com.vacuum.avaz.ui.main.ActivityModule
 import com.vacuum.avaz.util.Utility
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
 import java.util.*
