@@ -1,10 +1,8 @@
-package com.ogulcan.android.mvp.app.di.module
+package com.vacuum.avaz.di.module
 
-import com.ogulcan.android.mvp.app.api.ApiServiceInterface
-import com.ogulcan.android.mvp.app.ui.about.AboutContract
-import com.ogulcan.android.mvp.app.ui.about.AboutPresenter
-import com.ogulcan.android.mvp.app.ui.list.ListContract
-import com.ogulcan.android.mvp.app.ui.list.ListPresenter
+import com.vacuum.avaz.api.ApiServiceInterface
+import com.vacuum.avaz.ui.list.ListContract
+import com.vacuum.avaz.ui.list.ListPresenter
 import dagger.Module
 import dagger.Provides
 
@@ -14,10 +12,10 @@ import dagger.Provides
 @Module
 class FragmentModule {
 
-    @Provides
+   /* @Provides
     fun provideAboutPresenter(): AboutContract.Presenter {
         return AboutPresenter()
-    }
+    }*/
 
     @Provides
     fun provideListPresenter(): ListContract.Presenter {
