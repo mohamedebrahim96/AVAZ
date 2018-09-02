@@ -36,7 +36,7 @@ class ListAdapter(private val context: Context, private val list: MutableList<Po
         holder.body!!.setText(post.body)
 
         holder.layout!!.setOnClickListener {
-            listener.itemDetail(post.id.toString()!!)
+            listener.itemDetail(post.id.toString())
         }
     }
 

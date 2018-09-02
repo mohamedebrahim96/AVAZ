@@ -1,8 +1,8 @@
 package com.vacuum.avaz
 
 import android.app.Application
+import com.bumptech.glide.Glide.setup
 import com.vacuum.avaz.di.component.ApplicationComponent
-import com.vacuum.avaz.di.component.DaggerApplicationComponent
 import com.vacuum.avaz.di.module.ApplicationModule
 
 /**
@@ -16,18 +16,18 @@ class BaseApp: Application() {
         super.onCreate()
 
         instance = this
-        setup()
+        //setup()
 
         if (BuildConfig.DEBUG) {
             // Maybe TimberPlant etc.
         }
     }
 
-    fun setup() {
+    /*fun setup() {
         component = DaggerApplicationComponent.builder()
                 .applicationModule(ApplicationModule(this)).build()
         component.inject(this)
-    }
+    }*/
 
     fun getApplicationComponent(): ApplicationComponent {
         return component

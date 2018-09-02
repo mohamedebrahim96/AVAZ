@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.vacuum.avaz.R
-import com.vacuum.avaz.di.component.DaggerFragmentComponent
 import com.vacuum.avaz.di.module.FragmentModule
 import kotlinx.android.synthetic.main.fragment_about.*
 import javax.inject.Inject
@@ -26,7 +25,7 @@ class AboutFragment: Fragment(), AboutContract.View {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        injectDependency()
+        //injectDependency()
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -59,13 +58,13 @@ class AboutFragment: Fragment(), AboutContract.View {
         aboutText.visibility = View.VISIBLE
     }
 
-    private fun injectDependency() {
+    /*private fun injectDependency() {
         val aboutComponent = DaggerFragmentComponent.builder()
                 .fragmentModule(FragmentModule())
                 .build()
 
         aboutComponent.inject(this)
-    }
+    }*/
 
     private fun initView() {
         presenter.loadMessage()

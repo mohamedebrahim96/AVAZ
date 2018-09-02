@@ -10,7 +10,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.vacuum.avaz.R
-import com.vacuum.avaz.di.component.DaggerFragmentComponent
 import com.vacuum.avaz.di.module.FragmentModule
 import com.vacuum.avaz.models.DetailsViewModel
 import com.vacuum.avaz.models.Post
@@ -33,7 +32,7 @@ class ListFragment: Fragment(), ListContract.View, ListAdapter.onItemClickListen
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        injectDependency()
+        //injectDependency()
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -93,13 +92,13 @@ class ListFragment: Fragment(), ListContract.View, ListAdapter.onItemClickListen
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    private fun injectDependency() {
+    /*private fun injectDependency() {
         val listComponent = DaggerFragmentComponent.builder()
                 .fragmentModule(FragmentModule())
                 .build()
 
         listComponent.inject(this)
-    }
+    }*/
 
     private fun initView() {
         presenter.loadData()

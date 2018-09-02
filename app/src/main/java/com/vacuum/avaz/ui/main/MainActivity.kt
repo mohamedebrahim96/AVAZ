@@ -19,7 +19,6 @@ import com.vacuum.avaz.Activities.SettingsActivity
 import com.vacuum.avaz.MyPagerAdapter
 import com.vacuum.avaz.ui.main.MainContract
 import com.vacuum.avaz.ui.list.ListFragment
-import com.vacuum.avaz.di.component.DaggerActivityComponent
 import com.vacuum.avaz.R
 import com.vacuum.avaz.di.module.ActivityModule
 import com.vacuum.avaz.ui.about.AboutFragment
@@ -56,7 +55,7 @@ class MainActivity: AppCompatActivity(), MainContract.View, NavigationView.OnNav
         // API 17+ only.
         res.updateConfiguration(conf, dm)
         setContentView(R.layout.activity_main)
-        injectDependency()
+        //injectDependency()
 
         presenter.attach(this)
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
@@ -113,13 +112,13 @@ class MainActivity: AppCompatActivity(), MainContract.View, NavigationView.OnNav
         }
     }
 
-    private fun injectDependency() {
+    /*private fun injectDependency() {
         val activityComponent = DaggerActivityComponent.builder()
                 .activityModule(ActivityModule(this))
                 .build()
 
         activityComponent.inject(this)
-    }
+    }*/
 
     private fun test() {
         //hello.setText("Hello world with kotlin extensions")
