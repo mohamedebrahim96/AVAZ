@@ -31,10 +31,6 @@ class BaseApp: Application() {
 
 
 
-
-
-
-
     fun getApplicationComponent(): ApplicationComponent {
         return component
     }
