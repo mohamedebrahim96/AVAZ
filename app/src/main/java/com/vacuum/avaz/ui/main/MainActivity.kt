@@ -20,7 +20,6 @@ import com.vacuum.avaz.MyPagerAdapter
 import com.vacuum.avaz.ui.main.MainContract
 import com.vacuum.avaz.ui.list.ListFragment
 import com.vacuum.avaz.R
-import com.vacuum.avaz.di.module.ActivityModule
 import com.vacuum.avaz.ui.about.AboutFragment
 import com.vacuum.avaz.util.Utility
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
