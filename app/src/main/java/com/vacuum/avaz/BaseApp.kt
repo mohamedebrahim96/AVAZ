@@ -37,9 +37,4 @@ class BaseApp: Application() {
         lateinit var instance: BaseApp private set
     }
 
-
-
-
-
-
 }
