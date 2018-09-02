@@ -29,6 +29,8 @@ class BaseApp: Application() {
         component.inject(this)
     }*/
 
+
+
     fun getApplicationComponent(): ApplicationComponent {
         return component
     }
