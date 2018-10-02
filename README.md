@@ -26,7 +26,7 @@ You can download APK [on releases page][5].
 Screenshots
 =============  
 
-<img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250">
+<img src="./design/screenshots/Screenshot_2018-10-02-09-13-01-441.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-09-13-28-947.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-09-13-42-085.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-09-22-28-965.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-09-22-35-238.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-09-23-05-067.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-30-51-805.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-31-17-950.jpeg" width="250"><img src="./design/screenshots/Screenshot_2018-10-02-06-31-40-296.jpeg" width="250">
 
 
 Developer setup
