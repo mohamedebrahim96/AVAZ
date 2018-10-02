@@ -1,4 +1,4 @@
-package com.vacuum.avaz.Activities
+package com.vacuum.avaz.activities
 
 import android.content.Context
 import android.widget.AdapterView
@@ -9,7 +9,7 @@ import com.vacuum.avaz.ContextActivity
 import com.vacuum.avaz.R
 import com.vacuum.avaz.util.Utility
 import android.content.Intent
-import com.vacuum.avaz.MainActivity
+import com.vacuum.avaz.main.MainActivity
 
 
 class SettingsActivity : ContextActivity() {

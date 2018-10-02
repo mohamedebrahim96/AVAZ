@@ -3,7 +3,7 @@ import android.app.Activity
 import android.content.Intent
 import com.vacuum.avaz.R
 import android.content.Context.MODE_PRIVATE
-import com.vacuum.avaz.MainActivity
+import com.vacuum.avaz.main.MainActivity
 import java.util.*
 
 class Utility {

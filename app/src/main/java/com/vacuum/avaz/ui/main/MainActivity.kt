@@ -15,23 +15,26 @@ import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-import com.vacuum.avaz.Activities.SettingsActivity
+import com.vacuum.avaz.activities.SettingsActivity
 import com.vacuum.avaz.MyPagerAdapter
 import com.vacuum.avaz.ui.main.MainContract
 import com.vacuum.avaz.ui.list.ListFragment
-import com.vacuum.avaz.R
 import com.vacuum.avaz.ui.about.AboutFragment
 import com.vacuum.avaz.util.Utility
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
 import java.util.*
 import javax.inject.Inject
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
+
+import com.vacuum.avaz.R
+
 
 /**
  * Created by ogulcan on 07/02/2018.
  */
 class MainActivity: AppCompatActivity(), MainContract.View, NavigationView.OnNavigationItemSelectedListener {
 
-    @Inject lateinit var presenter: MainContract.Presenter
+    @Inject
+    lateinit var presenter: MainContract.Presenter
     private lateinit var drawer: DrawerLayout
     private lateinit var toggle: ActionBarDrawerToggle
     private lateinit var tabs_main: TabLayout
@@ -56,7 +59,7 @@ class MainActivity: AppCompatActivity(), MainContract.View, NavigationView.OnNav
         setContentView(R.layout.activity_main)
         //injectDependency()
 
-        presenter.attach(this)
+//        presenter.attach(this)
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
         toolbar.setTitle("")
         setSupportActionBar(toolbar)
@@ -78,7 +81,6 @@ class MainActivity: AppCompatActivity(), MainContract.View, NavigationView.OnNav
 
     override fun onResume() {
         super.onResume()
-        test()
     }
 
     override fun showAboutFragment() {
@@ -118,10 +120,6 @@ class MainActivity: AppCompatActivity(), MainContract.View, NavigationView.OnNav
 
         activityComponent.inject(this)
     }*/
-
-    private fun test() {
-        //hello.setText("Hello world with kotlin extensions")
-    }
 
 
 

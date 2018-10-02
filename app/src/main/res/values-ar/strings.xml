@@ -27,6 +27,15 @@
     <string name="send_feedback">ارسل رأيك</string>
     <string name="subscribe">الاشتراك</string>
 
+
+
+
+
+
+
+
+
+
     <string-array name="theme_array">
         <item>Light-Theme</item>
         <item>Dark-Theme</item>
